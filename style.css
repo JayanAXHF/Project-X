@@ -53,7 +53,8 @@ body {
     line-height: 1.5;
     padding: 0px;
     margin: 0px;
-    background-color: #f4f4f4
+    background-color: rgb(19, 18, 18);
+    color: white;
 }
 
 .container {
@@ -113,18 +114,33 @@ header nav {
 
     display: inline;
 
+    margin-left: 100px;
+
     padding: 0 20px 0 20px;
 
+    color: #fff !important;
 
 }
 
 .img {
     height: 250px;
-    width: 125px;
+    width: 150px;
 }
 
 .item a {
     text-decoration: none;
     color: #000;
-    
+
+}
+
+h4 {
+    color: #ffffff;
+}
+
+.item:hover {
+    border: 6px 6px 40px solid rgb(10, 197, 197);
+}
+
+.item h4:hover {
+    color: #e8491d;
 }
